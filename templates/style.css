@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(248, 136, 96);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.blue{
+    background-color: #f7a440;
+    width: 100%;
+    height: 500px;
+    /* float: left; */
+}
+/* .pink{ */
+    /* background-color: #3f3697;
+    width: 50%;
+    height: 500px;
+    float: left;
+} */
+.head{
+    left: 36%;
+    position: absolute;
+    text-align: center;
+    top: 129px;
+
+}
+.logo{
+    width: 50px;
+}
+.d-block {
+    height: 300px;
+    width: 250px;
+}
+.input{
+    position: relative;
+    top: 483px;
+    left: 416px;
+}
+.middle{
+    background-color: white;
+    position: relative;
+    top: 470px;
+    left: 450px;
+    box-shadow: 0 8px 6px -6px black;
+    text-align: center;
+    width: 650px;
+}
+.cont{
+    background-image: linear-gradient(180deg, red, yellow);
+    height: max-content;
+    
+}
