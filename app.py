@@ -1,10 +1,11 @@
 from flask import Flask, render_template, request, send_from_directory
 import keras
-import cv
-from tensorflow.keras.preprocessing.image import load_img
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.models import load_model
-from tensorflow.keras.layers import Dense, Dropout, Conv2D, MaxPooling2D, BatchNormalization, Flatten
+import tensorflow
+import cv2
+from keras.preprocessing.image import load_img
+from keras.preprocessing import image
+from keras.models import load_model
+from keras.layers import Dense, Dropout, Conv2D, MaxPooling2D, BatchNormalization, Flatten
 import numpy as np
 
 COUNT = 0
